@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IGUIDProvider, GUIDProvider>();
+builder.Services.AddTransient<IGUIDProvider, GUIDProvider>();
 
 var app = builder.Build();
 
