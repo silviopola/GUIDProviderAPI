@@ -1,0 +1,6 @@
+@GUIDProviderAPI_HostAddress = http://localhost:5055
+
+GET {{GUIDProviderAPI_HostAddress}}/GetGUID/
+Accept: application/json
+
+###
